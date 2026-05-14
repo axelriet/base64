@@ -10,3 +10,6 @@ test/test_base64
 out/
 # private cmake presets
 CMakeUserPresets.json
+/msvc/bin/Static/x64/Debug
+/msvc/obj/Static/x64/Debug
+/msvc/obj/Static/x64/Release
