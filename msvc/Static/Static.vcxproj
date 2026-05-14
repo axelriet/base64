@@ -15,6 +15,7 @@
     <ClCompile Include="..\..\lib\arch\avx512\codec_avx512.c" />
     <ClCompile Include="..\..\lib\codec_choose.c" />
     <ClCompile Include="..\..\lib\lib.c" />
+    <ClCompile Include="..\..\lib\tables\tables.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

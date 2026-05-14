@@ -296,6 +296,7 @@ codec_choose_x86 (struct codec *codec)
 void
 codec_choose (struct codec *codec, int flags)
 {
+#if 0
 	// User forced a codec:
 	if (codec_choose_forced(codec, flags)) {
 		return;
@@ -305,9 +306,12 @@ codec_choose (struct codec *codec, int flags)
 	if (codec_choose_arm(codec)) {
 		return;
 	}
+#endif
+
 	if (codec_choose_x86(codec)) {
 		return;
 	}
-	codec->enc = base64_stream_encode_plain;
-	codec->dec = base64_stream_decode_plain;
+
+//	codec->enc = base64_stream_encode_plain;
+//	codec->dec = base64_stream_decode_plain;
 }

@@ -22,6 +22,9 @@
     <Filter Include="Source Files\arch\avx512">
       <UniqueIdentifier>{eb92ef48-417c-43df-a947-acbd889612a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\tables">
+      <UniqueIdentifier>{57553817-8cd2-4942-826e-19e7b83d90e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\lib\codec_choose.c">
@@ -35,6 +38,9 @@
     </ClCompile>
     <ClCompile Include="..\..\lib\arch\avx512\codec_avx512.c">
       <Filter>Source Files\arch\avx512</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lib\tables\tables.c">
+      <Filter>Source Files\tables</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
